@@ -2,14 +2,44 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://LfOrigin.github.io</id>
     <title>MY&apos;s Blog</title>
-    <updated>2020-03-10T04:38:37.805Z</updated>
+    <updated>2021-01-14T08:48:35.953Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://LfOrigin.github.io"/>
     <link rel="self" href="https://LfOrigin.github.io/atom.xml"/>
     <subtitle>温故而知新</subtitle>
     <logo>https://LfOrigin.github.io/images/avatar.png</logo>
     <icon>https://LfOrigin.github.io/favicon.ico</icon>
-    <rights>All rights reserved 2020, MY&apos;s Blog</rights>
+    <rights>All rights reserved 2021, MY&apos;s Blog</rights>
+    <entry>
+        <title type="html"><![CDATA[Test]]></title>
+        <id>https://LfOrigin.github.io/post/test/</id>
+        <link href="https://LfOrigin.github.io/post/test/">
+        </link>
+        <updated>2021-01-14T08:48:16.000Z</updated>
+        <content type="html"><![CDATA[<h3 id="1首先抛出以下问题">1.首先抛出以下问题：</h3>
+<pre><code>1、COUNT有几种用法？
+2、COUNT(字段名)和COUNT(*)的查询结果有什么不同？
+3、COUNT(1)和COUNT(*)之间有什么不同？
+4、COUNT(1)和COUNT(*)之间的效率哪个更高？
+5、为什么《阿里巴巴Java开发手册》建议使用COUNT(*)
+6、MySQL的MyISAM引擎对COUNT(*)做了哪些优化？
+7、MySQL的InnoDB引擎对COUNT(*)做了哪些优化？
+8、上面提到的MySQL对COUNT(*)做的优化，有一个关键的前提是什么？
+9、SELECT COUNT(*) 的时候，加不加where条件有差别吗？
+10、COUNT(*)、COUNT(1)和COUNT(字段名)的执行过程是怎样的？
+</code></pre>
+<h3 id="2小结">2.小结</h3>
+<p>主要用于统计表行数。主要用法有</p>
+<pre><code>COUNT(*)、COUNT(字段)COUNT(1)
+</code></pre>
+<p><code>Count(*)</code></p>
+<pre><code class="language-shell">date
+echo &quot;hi&quot;
+</code></pre>
+<pre><code class="language-java">public static void main
+</code></pre>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[ceshi]]></title>
         <id>https://LfOrigin.github.io/post/ceshi/</id>
