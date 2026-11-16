@@ -1,0 +1,22 @@
+{
+  "name": "my-blog",
+  "version": "1.0.0",
+  "description": "使用 vuepress-theme-hope 搭建、部署在 GitHub Pages 上的个人博客",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "docs:dev": "vuepress-vite dev docs",
+    "docs:build": "vuepress-vite build docs",
+    "docs:clean-dev": "vuepress-vite dev docs --clean-cache",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "@vuepress/bundler-vite": "2.0.0-rc.31",
+    "sass": "^1.108.2",
+    "typescript": "^6.0.3",
+    "vue": "^3.5.45",
+    "vuepress": "2.0.0-rc.31",
+    "vuepress-theme-hope": "2.0.0-rc.110"
+  }
+}

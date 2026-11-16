@@ -1,0 +1,19 @@
+// 全局自定义样式
+
+// 首页 Hero 使用渐变背景，不依赖任何外部图片
+.vp-blog-hero .vp-blog-mask {
+  background:
+    radial-gradient(circle at 18% 20%, rgba(56, 189, 248, 0.55), transparent 55%),
+    radial-gradient(circle at 82% 28%, rgba(99, 102, 241, 0.5), transparent 60%),
+    linear-gradient(135deg, #0b1220 0%, #123a7a 55%, #1e80ff 100%) !important;
+}
+
+// 首页标题字距稍微收一点
+.vp-blog-hero-title {
+  letter-spacing: 0.04em;
+}
+
+// 文章封面统一使用圆角
+.vp-article-cover {
+  border-radius: 8px;
+}
