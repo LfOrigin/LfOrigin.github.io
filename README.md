@@ -121,11 +121,11 @@ star: true
 ### 1. 推送到 GitHub
 
 ```bash
-git init -b main
+git init -b master
 git add .
 git commit -m "chore: init blog"
 git remote add origin https://github.com/<用户名>/<仓库名>.git
-git push -u origin main
+git push -u origin master
 ```
 
 ### 2. 打开 Pages
@@ -134,7 +134,7 @@ git push -u origin main
 
 ### 3. 等待自动部署
 
-`.github/workflows/deploy.yml` 会在每次推送到 `main` 时：
+`.github/workflows/deploy.yml` 会在每次推送到 `master` 时：
 
 1. 安装依赖（`npm ci`）
 2. 构建站点（`npm run docs:build`）
