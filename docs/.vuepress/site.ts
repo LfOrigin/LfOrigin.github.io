@@ -5,10 +5,10 @@
  */
 
 /** GitHub 用户名（用于页脚链接、编辑此页链接） */
-export const owner = process.env.GITHUB_REPOSITORY?.split("/")[0] || "lforigin";
+export const owner = process.env.GITHUB_REPOSITORY?.split("/")[0] || "LfOrigin";
 
 /** 仓库名 */
-export const repo = process.env.GITHUB_REPOSITORY?.split("/")[1] || "lforigin.github.io";
+export const repo = process.env.GITHUB_REPOSITORY?.split("/")[1] || "LfOrigin.github.io";
 
 /**
  * 部署到 GitHub Pages 时的站点根路径（base）。
@@ -39,16 +39,19 @@ export const base = (process.env.SITE_BASE ??
  * 绑定自定义域名后，把环境变量 SITE_HOSTNAME 设为 `https://blog.example.com`，
  * 或直接修改这里。
  */
+/** GitHub Pages 的主机名不区分大小写，统一输出小写便于 SEO 与 sitemap */
+const pageHost = owner.toLowerCase();
+
 export const hostname =
   process.env.SITE_HOSTNAME ??
-  `https://${owner}.github.io${base === "/" ? "" : base.replace(/\/$/, "")}`;
+  `https://${pageHost}.github.io${base === "/" ? "" : base.replace(/\/$/, "")}`;
 
 /** 站点标题 / 描述 / 作者 */
 export const title = "我的博客";
 
 export const description = "记录技术、读书与生活的地方。";
 
-export const author = "Lforigin";
+export const author = "LfOrigin";
 
 /** 作者主页，显示在文章页与博客信息卡上 */
 export const authorUrl = `https://github.com/${owner}`;
