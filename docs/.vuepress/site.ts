@@ -5,10 +5,10 @@
  */
 
 /** GitHub 用户名（用于页脚链接、编辑此页链接） */
-export const owner = process.env.GITHUB_REPOSITORY?.split("/")[0] || "your-github-name";
+export const owner = process.env.GITHUB_REPOSITORY?.split("/")[0] || "lforigin";
 
 /** 仓库名 */
-export const repo = process.env.GITHUB_REPOSITORY?.split("/")[1] || "my-blog";
+export const repo = process.env.GITHUB_REPOSITORY?.split("/")[1] || "lforigin.github.io";
 
 /**
  * 部署到 GitHub Pages 时的站点根路径（base）。
@@ -48,7 +48,7 @@ export const title = "我的博客";
 
 export const description = "记录技术、读书与生活的地方。";
 
-export const author = "你的名字";
+export const author = "Lforigin";
 
 /** 作者主页，显示在文章页与博客信息卡上 */
 export const authorUrl = `https://github.com/${owner}`;

@@ -45,7 +45,6 @@ export default hopeTheme({
     timeline: "写下去，就对了",
     medias: {
       GitHub: authorUrl,
-      Email: "mailto:you@example.com",
     },
     articlePerPage: 10,
   },

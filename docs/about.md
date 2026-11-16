@@ -7,7 +7,7 @@ article: false
 
 # 关于我
 
-你好，我是**你的名字**，一名开发者。
+你好，我是 **Lforigin**，一名开发者。
 
 这个博客用来记录：
 
@@ -21,15 +21,7 @@ article: false
   title="GitHub"
   desc="代码与开源项目"
   logo="/logo.svg"
-  link="https://github.com/your-github-name"
-  background="rgba(30, 128, 255, 0.06)"
-/>
-
-<VPCard
-  title="Email"
-  desc="you@example.com"
-  logo="/logo.svg"
-  link="mailto:you@example.com"
+  link="https://github.com/lforigin"
   background="rgba(30, 128, 255, 0.06)"
 />
 
