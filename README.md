@@ -209,7 +209,7 @@ CI 部署走的是自动计算，若手动改过 `SITE_BASE` 请确认值正确�
 
 **Node 版本**
 
-VuePress 2 要求 Node.js 20.19+，工作流固定使用 Node 22。
+VuePress 2 要求 Node.js 20.19+，工作流固定使用 Node 24。
 
 ## 本地构建产物
 
