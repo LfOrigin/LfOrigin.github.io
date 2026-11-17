@@ -14,6 +14,17 @@ export default navbar([
     ],
   },
   {
+    text: "AI",
+    icon: "book",
+    prefix: "/ai",
+    children: [
+      { text: "模型测评", icon: "list", link: "model-evaluation/" },
+      { text: "Agent", icon: "tags", link: "agent/" },
+      { text: "Harness", icon: "tag", link: "harness/" },
+      { text: "AI协同", icon: "tags", link: "co-work/" },
+    ],
+  },
+  {
     text: "笔记",
     icon: "pen-to-square",
     link: "/notes/",
