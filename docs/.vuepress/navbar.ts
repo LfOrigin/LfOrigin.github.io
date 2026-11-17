@@ -16,7 +16,7 @@ export default navbar([
   {
     text: "AI",
     icon: "book",
-    prefix: "/ai",
+    prefix: "/notes/ai",
     children: [
       { text: "模型测评", icon: "list", link: "model-evaluation/" },
       { text: "Agent", icon: "tags", link: "agent/" },
